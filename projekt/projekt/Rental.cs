@@ -21,7 +21,11 @@ public class Rental
         this.DataWypozyczenia = dataWypozyczenia;
         this.DataZwrotuDue = dataZwrotuDue;
     }
-    
-    
+
+    public void Zwrot(DateTime zwrot, double kara)
+    {
+        DataZwrotu = zwrot;
+        Kara = kara;
+    }
     
 }
