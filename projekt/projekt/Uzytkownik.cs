@@ -2,7 +2,7 @@
 
 public abstract class Uzytkownik
 {
-    private int id = 0;
+    private static int id = 0;
     public int Id { get; }
     
     public String Imie { get; set; } 

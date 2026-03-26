@@ -2,7 +2,7 @@
 
 public class Sprzet
 {
-    private int id = 0;
+    private static int id = 0;
     
     public int Id { get ; }
     public string Nazwa { get; set; }
