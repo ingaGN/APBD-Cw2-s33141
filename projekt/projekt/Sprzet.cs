@@ -7,13 +7,13 @@ public class Sprzet
     public int Id { get ; }
     public string Nazwa { get; set; }
     public string Producent { get; set; }
-    public string Status { get; set; }
+    public Status Status { get; set; }
 
     public Sprzet(string nazwa, string producent)
     {
         Id = id++;
         Nazwa = nazwa;
         Producent = producent;
-        Status = "dostepny";
+        Status = Status.dostepny;
     }
 }
